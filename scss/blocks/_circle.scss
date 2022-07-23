@@ -1,0 +1,40 @@
+.circle {
+  margin-top: 200px;
+  &__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__card {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      &__ul {
+        padding-left: 16px;
+
+        &__li {
+          list-style-type: none;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 200%;
+    text-align: center;
+          color: #212121;
+        }
+        &__li2{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+/* identical to box height, or 32px */
+
+
+color: #949494;
+list-style-type: none;
+        }
+      }
+    }
+  }
+}

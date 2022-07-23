@@ -1,0 +1,404 @@
+.hero {
+  margin-bottom: 210px;
+  .hero__hero-box {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__hero-text {
+    font-family: "Gentium Basic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #008f76;
+  }
+
+  .hero__hero-text2 {
+    font-family: "Gentium Basic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .hero__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 200%;
+
+    text-align: center;
+
+    color: #212121;
+
+    span {
+      color: #008f76;
+    }
+  }
+  .hero__hero-link-box {
+    display: flex;
+    align-items: center;
+
+    .hero___btn-search {
+      display: flex;
+      align-items: center;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 200%;
+
+      text-align: center;
+
+      color: #ffffff;
+      padding: 10px 24px;
+      gap: 10px;
+
+      background: #008f76;
+      box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+        0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+      border-radius: 20px;
+      border: none;
+      margin-top: 48px;
+      margin-left: 404px;
+    }
+
+    .hero___btn-search2 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 200%;
+ 
+      text-align: center;
+
+      color: #008f76;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 24px;
+      gap: 10px;
+
+      width: 251px;
+      height: 52px;
+
+      border: 1px solid #008f76;
+      filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.03))
+        drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015));
+      border-radius: 20px;
+      margin-top: 48px;
+      margin-left: 48px;
+      .hand{
+        margin-left: 12px;
+      }
+    }
+  }
+  .line {
+    margin-top: 54px;
+    width: 405px;
+    margin-left: 447px;
+    border: 0.5px solid;
+
+    color: #008f76;
+  }
+
+  .card__book__first {
+    margin-left: 90px;
+    width: 100px;
+    height: 138.33px;
+
+    background: #ffffff;
+
+    margin-top: 19px;
+
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 5px;
+      line-height: 200%;
+      color: #212121;
+      padding-top: 14px;
+      margin-left: 13px;
+    }
+
+    &__poet {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 5px;
+      line-height: 200%;
+      color: #008f76;
+      margin-top: 2px;
+      margin-left: 13px;
+    }
+    &__image {
+      background: url(image.png);
+      opacity: 0.5;
+      margin-left: 13px;
+      margin-top: 2px;
+    }
+  }
+
+  .card__book__second {
+    width: 130px;
+    height: 200px;
+
+    background: #ffffff;
+    box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+      0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+      0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    margin-top: -40px;
+    margin-left: 302px;
+
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 200%;
+
+      color: #212121;
+      padding-top: 6px;
+      padding-left: 12px;
+    }
+    &__poet {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 5px;
+      line-height: 200%;
+      color: #008f76;
+      padding-top: 2px;
+      padding-left: 12px;
+    }
+
+    &__image {
+      opacity: 0.6;
+      padding-top: 2px;
+      padding-left: 12px;
+    }
+  }
+
+  .card__book__third {
+    width: 130px;
+    height: 220px;
+
+    background: #ffffff;
+    box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+      0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+      0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    margin-left: 70px;
+    margin-top: -30px;
+
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 200%;
+      /* identical to box height, or 16px */
+
+      padding-top: 13.7px;
+      padding-left: 13px;
+
+      color: #212121;
+    }
+    &__poet {
+      padding-top: 2px;
+      padding-left: 13px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 5px;
+      line-height: 200%;
+      color: #008f76;
+    }
+
+    &__image {
+      padding-left: 13px;
+      padding-top: 2px;
+    }
+  }
+  .card__book__fourth {
+    width: 230px;
+    height: 360px;
+
+    background: #ffffff;
+
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+      0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+      0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+      0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+      0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    margin-left: 519px;
+    margin-top: -400px;
+
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 200%;
+      padding-top: 13px;
+      padding-left: 13px;
+
+      color: #212121;
+    }
+    &__poet {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 200%;
+      padding-top: 2px;
+      padding-left: 13px;
+
+      color: #008f76;
+    }
+    &__left{
+      position: relative;
+      width: 40px;
+      height: 40px;
+      left: -22px;
+      top: -130px;
+    }
+    &__image {
+      padding-top: 2px;
+ 
+    }
+    &__right{
+      position: relative;
+      top: -170px;
+      left: 212px;
+      
+    }
+  }
+  .card__book__fifth {
+    width: 130px;
+    height: 200px;
+
+    background: #ffffff;
+    box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+      0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+      0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    margin-top: -350px;
+    margin-left: 840px;
+
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 200%;
+
+      color: #212121;
+      padding-top: 6px;
+      padding-left: 12px;
+    }
+    &__poet {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 5px;
+      line-height: 200%;
+      color: #008f76;
+      padding-top: 2px;
+      padding-left: 12px;
+    }
+
+    &__image {
+      opacity: 0.6;
+      padding-top: 2px;
+      padding-left: 12px;
+    }
+  }
+  .card__book__sixth {
+    width: 100px;
+    height: 138.33px;
+
+    background: #ffffff;
+
+    margin-top: -299px;
+    margin-left: 1067px;
+
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 5px;
+      line-height: 200%;
+      color: #212121;
+      padding-top: 14px;
+      margin-left: 13px;
+    }
+
+    &__poet {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 5px;
+      line-height: 200%;
+      color: #008f76;
+      margin-top: 2px;
+      margin-left: 13px;
+    }
+    &__image {
+      width: 86.09px;
+      height: 88.73px;
+
+      opacity: 0.5;
+      margin-left: 13px;
+      margin-top: 2px;
+    }
+  }
+  .card__book__seventh {
+    width: 130px;
+    height: 220px;
+
+    background: #ffffff;
+    box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+      0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+      0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    margin-left: 1057px;
+    margin-top: 131px;
+
+    &__title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 200%;
+     
+      padding-top: 13.7px;
+      padding-left: 13px;
+
+      color: #212121;
+    }
+    &__poet {
+      padding-top: 2px;
+      padding-left: 13px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 5px;
+      line-height: 200%;
+      color: #008f76;
+    }
+
+    &__image {
+      padding-left: 13px;
+      padding-top: 2px;
+    }
+  }
+}

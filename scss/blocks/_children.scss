@@ -1,0 +1,32 @@
+.children{
+    margin-top: 200px;
+    &_text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 200%;
+        color: #212121;
+      }
+      &_desc {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        text-align: right;
+        color: #949494;
+      }
+    }
+    &__pictures{
+        margin-top: 24px;
+        margin-left: -18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

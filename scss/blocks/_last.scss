@@ -1,0 +1,98 @@
+.last {
+  margin-top: 193px;
+
+  &__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 200%;
+    /* identical to box height, or 56px */
+
+    color: #212121;
+    text-align: center;
+    span {
+      color: #008f76;
+    }
+  }
+  &_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* identical to box height, or 40px */
+
+    color: #949494;
+    text-align: center;
+    margin-top: 8px;
+  }
+  &__btn {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    text-align: center;
+
+    color: #ffffff;
+    padding: 10px 24px;
+    gap: 10px;
+
+    width: 344px;
+    height: 68px;
+    margin-left: 450px;
+    margin-top: 48px;
+    background: #008f76;
+    border: 1px solid #008f76;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+    border-radius: 20px;
+    img{
+      margin-left: 12px;
+    }
+  }
+  &-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* identical to box height, or 40px */
+
+    color: #949494;
+    margin-top: 24px;
+    text-align: center;
+  }
+  &__btn2 {
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+
+    width: 262px;
+    height: 68px;
+
+    border: 1px solid #008f76;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.03))
+      drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015));
+    border-radius: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    text-align: center;
+    color: #008f76;
+    margin-left: 490px;
+    margin-top: 24px;
+
+    .bi-whatsapp{
+        color:lightgreen;
+        height: 32.262001037597656px;
+        width: 32.0004997253418px;
+        margin-left: 10px;
+        
+    }
+  }
+}
